@@ -1,6 +1,7 @@
 <?php
 
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -33,3 +34,5 @@ Route::get('/faq', function () {
     return view('faq');
 });
 Route::post('/signUp',[UserController::class,'saveUser']);
+Route::post('/contact',[ContactController::class,'saveContact']);
+Route::get('/faq',[ContactController::class,'showContact']);

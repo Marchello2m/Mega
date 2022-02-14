@@ -31,7 +31,7 @@
                             <div >
                                 <ul class="navbar-nav">
                                     <li >
-                                        <a class="nav-link active" aria-current="page" href="/">HOME"</a>
+                                        <a class="nav-link active" aria-current="page" href="/">HOME</a>
                                     </li>
                                     <li >
                                         <a class="nav-link" href="/services">Services</a>

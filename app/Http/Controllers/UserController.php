@@ -28,7 +28,7 @@ class UserController extends BaseController
         $user->created_at=Carbon::now();
         $user->save();
        Session::flash('userSaved','saved');
-        return redirect('/');
+        return redirect('/faq');
 
     }
 }

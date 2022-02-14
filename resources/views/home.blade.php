@@ -12,10 +12,10 @@
                     <h2 class="marketing"><strong>MARKETING</strong></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolorem dolores dolorum eius exercitationem id, ipsa iste labore nobis odit quibusdam ullam unde!</p>
 
-                    <button class="button buttonLM">LEARN MORE</button>
+                    <button class="button buttonLM"> <a style="color: white" href="https://magecode.io/">LEARN MORE</a></button>
                 </div>
 
-                <div class="col-md-8"><img src="{{ asset('img/illustration.jpg') }}" alt="description of myimage"></div>
+                <div class="col-md-8"><img src="{{ asset('img/illustration.jpg') }}" alt="#"></div>
 
             </div>
         </div>
