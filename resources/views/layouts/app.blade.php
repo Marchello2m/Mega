@@ -59,6 +59,11 @@
 
     <main class="py-4">
         @yield('content')
+        @if(session()->has('message'))
+            <div class="alert alert-success">
+                {{ session()->get('message') }}
+            </div>
+        @endif
     </main>
 </div>
 </body>

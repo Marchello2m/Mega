@@ -33,7 +33,7 @@ class ContactController extends BaseController
         $contact->created_at=Carbon::now();
         $contact->save();
 
-        return redirect('/');
+        return redirect('/')->with('message', 'Your message sent!');
 
     }
     public function showContact()
