@@ -22,7 +22,7 @@
                   LOGO
             </a>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto">
                     <nav class="navbar navbar-expand-lg ">

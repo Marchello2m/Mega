@@ -1,8 +1,12 @@
 .buttonLM {
-    border-radius: 15%;
-    border-color:mediumslateblue ;
-    background-color: mediumslateblue;
-    color: white;
+    padding:0.6em 2em;
+    border-radius: 8px;
+    color:#fff;
+    background-color:#1976d2;
+    font-size:1.1em;
+    border:0;
+    cursor:pointer;
+    margin:1em;
 }
 .digital{
     font-size: 75px;
@@ -21,8 +25,15 @@
     text-align: center;
     padding-bottom: 20px;
 }
+.pmagneto{
+    color: #4a5568;
+}
 .h1about{
     color:dodgerblue ;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.h2contact{
     text-align: center;
     padding-bottom: 20px;
 }
