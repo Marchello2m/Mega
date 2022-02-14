@@ -2,12 +2,14 @@
     border-radius: 15%;
     border-color:mediumslateblue ;
     background-color: mediumslateblue;
-    text-decoration: white;
+    color: white;
 }
 .digital{
+    font-size: 75px;
     color: #006699;
 }
 .marketing{
+
     color: orange;
 }
 

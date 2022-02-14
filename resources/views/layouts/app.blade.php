@@ -12,6 +12,7 @@
           integrity=
           "sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
           crossorigin="anonymous" />
+
 </head>
 <body>
 <div id="app">
@@ -44,8 +45,8 @@
                                     <li >
                                         <a class="nav-link" href="/faq">FAQ</a>
                                     </li>
-                                    <li  >
-                                        <a class="nav-link" href="/signUp">SIGN UP</a>
+                                    <li>
+                                        <a  class="button buttonLM" href="/signUp">SIGN UP</a>
                                     </li>
                                 </ul>
                             </div>
