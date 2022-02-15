@@ -1,0 +1,148 @@
+.buttonLM{
+    text-decoration: none;
+    padding: 4px 4px;
+    border-radius: 8px;
+    color: white;
+    background-color: #bb99ff;
+    font-size: 20px;
+    border: 0;
+    cursor: pointer;
+    margin: 1px;
+opacity: 50%;
+}
+
+.buttonSi {
+    text-decoration: none;
+    padding: 4px 4px;
+    border-radius: 8px;
+    color: black;
+    background-color: #bb99ff;
+    font-size: 20px;
+    border: 0;
+    cursor: pointer;
+    margin: 1px;
+}
+.buttonS {
+    text-decoration: none;
+    float: right;
+    border-radius: 8px;
+    color: black;
+    background-color: #bb99ff;
+    font-size: 20px;
+    margin-left:auto;
+    margin-right: 10px;
+
+}
+.digital {
+    font-size: 75px;
+    color: #006699;
+    padding-bottom: 2px;
+
+}
+
+.marketing {
+    padding-bottom: 15px;
+    color: orange;
+    font-size: 36px;
+
+
+}
+
+.h2magneto {
+    color: dodgerblue;
+}
+
+.h1magneto {
+
+    color: dodgerblue;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.pmagneto {
+    color: #4a5568;
+}
+
+.h1about {
+    color: dodgerblue;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.h2contact {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+
+html {
+    font-size: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.right {
+
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+}
+
+@media only screen and (max-width: 830px) {
+
+    .main {
+        width: 80%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .digital {
+
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .main, .right {
+        width: 100%;
+    }
+
+    .buttonSi {
+        display: none;
+        color: yellow;
+    }
+
+    .buttonS {
+        display: block;
+    }
+
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1920px) {
+
+
+    .buttonS {
+        display: none;
+    }
+}
+

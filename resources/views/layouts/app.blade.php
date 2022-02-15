@@ -1,61 +1,68 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ config('app.name', 'Laravel') }}</title>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet"
-          href=
-          "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-          integrity=
-          "sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-          crossorigin="anonymous" />
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 </head>
 <body>
-<div id="app">
-    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-        <div class="container">
+<div class="container-fluid " id="app">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
             <a class="navbar-brand" href="{{ url('/') }}">
-                  LOGO
+                LOGO
             </a>
+            <a  class="buttonS"  href="/signUp" >SIGN UP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item " >
 
-           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- Right Side Of Navbar -->
-                <ul class="navbar-nav ml-auto">
-                    <nav class="navbar navbar-expand-lg ">
-                        <div class="container-fluid">
+                        <a class="nav-link active" aria-current="page" href="/">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " href="/services">Services</a>
+                    </li>
 
-                            <div >
-                                <ul class="navbar-nav">
-                                    <li >
-                                        <a class="nav-link active" aria-current="page" href="/">HOME</a>
-                                    </li>
-                                    <li >
-                                        <a class="nav-link" href="/services">Services</a>
-                                    </li>
-                                    <li >
-                                        <a class="nav-link" href="/aboutUs">About</a>
-                                    </li>
-                                    <li >
-                                        <a class="nav-link" href="/contact">Contact</a>
-                                    </li>
-                                    <li >
-                                        <a class="nav-link" href="/faq">FAQ</a>
-                                    </li>
-                                    <li>
-                                        <a  class="button buttonLM" href="/signUp">SIGN UP</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/aboutUs">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navItems nav-link" href="/faq">FAQ</a>
+                    </li>
+
+                    <li class="nav-item " >
+                        <a  class="buttonSi" href="/signUp">SIGN UP</a>
+                    </li>
+
                 </ul>
+
             </div>
         </div>
     </nav>
+
+
+
+
 
     <main class="py-4">
         @yield('content')
