@@ -7,7 +7,7 @@
         <div class="container">
             <!-- Stack the columns on mobile by making one full-width and the other half-width -->
             <div class="row">
-                <div class="col-md-6">
+                <div class="mine col-md-6">
                     <h1>FAQ?</h1>
 
                     <table class="table">
@@ -30,7 +30,7 @@
 
                 </div>
 
-                <div class="col-md-4"><img src="{{ asset('img/illustration.jpg') }}" alt="description of myimage"></div>
+                <div class="right col-md-4"><img src="{{ asset('img/illustration.jpg') }}" alt="description of myimage" style="width: 100%"></div>
 
             </div>
         </div>

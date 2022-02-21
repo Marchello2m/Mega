@@ -17,7 +17,7 @@
                     </div>
 
 
-                <div class="right col-md-8"><img src="{{ asset('img/illustration.jpg') }}" alt="#" style="width:100%"></div>
+                <div class="right col-md-8"><img src="{{ asset('img/illustration.jpg') }}" alt="#" style="width: 100%"></div>
 
             </div>
         </div>

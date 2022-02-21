@@ -7,7 +7,7 @@
         <div class="container">
             <!-- Stack the columns on mobile by making one full-width and the other half-width -->
             <div class="row">
-                <div class="col-6 col-md-4">
+                <div class="main col-6 col-md-4">
 <h1 class="h1magneto"><strong>Our Services</strong></h1>
                     <h2 class="h2magneto">Magento development</h2>
                     <p class="pmagneto">We build Magento webstores that are fast, responsive and secure.
@@ -32,7 +32,7 @@
                         calibrated for your business requirements.</p>
                 </div>
 
-                <div class="col-md-8"><img src="{{ asset('img/illustration.jpg') }}" alt="description of myimage"></div>
+                <div  class="right col-md-8"><img src="{{ asset('img/illustration.jpg') }}" alt="description of myimage" style="width: 100%"></div>
 
             </div>
         </div>
